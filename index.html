@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DF Tow</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <style>
+    .top-container{
+      background-color: #E4F9F5;
+      padding-top: 80px;
+      position: relative;
+    }
+    body{
+      margin: 0;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+    background-color: #40514E;
+    }
+    h1{
+      margin-top: 50px;
+      font-family: 'Sacramento', cursive;
+      font-size: 5.625rem;
+      color: #66BFBF;
+      line-height: 2;
+    }
+    h2{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      color: #66BFBF;
+    }
+    h3{
+      font-family: 'Montserrat', sans-serif;
+      color:  #11999E;
+    }
+    hr{
+      border-style:none;
+      border-top-style: dotted;
+      border-color:#EAF6F6;
+      width:5%;
+      border-width: 5px;
+
+    }
+    a{
+      color:  #11999E;
+    }
+    .middle-container{
+    background-color: #f7f7f7;
+    }
+    .bottom-container{
+    background-color: #66BFBF;
+    }
+    .skill-row{
+      width: 50%;
+      margin:100px auto 100px auto;
+      text-align: left;
+      line-height: 2;
+    }
+    .computer-images{
+      width: 20%;
+      float: left;
+      margin-right: 30px;
+
+    }
+    .code-images{
+      width: 20%;
+      float: right;
+      margin-left: 30px;
+    }
+    .name{
+      text-decoration: underline;
+    }
+
+
+    .bottom-cloud{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+    }
+
+    .top-cloud{
+      position: absolute;
+      right:  300px;
+      top: 50px;
+
+    }
+    #introduce{
+      font-weight: normal;
+    }
+    .profile-description{
+    color: #40514E;
+    }
+    .BUTTON {
+       background: #18CEB9;
+       background-image: -webkit-linear-gradient(top, #18CEB9, #48A8C2);
+       background-image: -moz-linear-gradient(top, #18CEB9, #48A8C2);
+       background-image: -ms-linear-gradient(top, #18CEB9, #48A8C2);
+       background-image: -o-linear-gradient(top, #18CEB9, #48A8C2);
+       background-image: linear-gradient(to bottom, #18CEB9, #48A8C2);
+       -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+       border-radius: 20px;
+       color: #FFFFFF;
+       font-family: Verdana;
+       font-size: 40px;
+       font-weight: 100;
+       padding: 40px;
+       box-shadow: 1px 1px 20px 0px #000000;
+       -webkit-box-shadow: 1px 1px 20px 0px #000000;
+       -moz-box-shadow: 1px 1px 20px 0px #000000;
+       text-shadow: 1px 1px 20px #000000;
+       border: solid #337FED 1px;
+       text-decoration: none;
+       display: inline-block;
+       cursor: pointer;
+       text-align: center;
+    }
+
+    .BUTTON:hover {
+       border: solid #000000 1px;
+       background: #1EB2D0;
+       background-image: -webkit-linear-gradient(top, #1EB2D0, #12C878);
+       background-image: -moz-linear-gradient(top, #1EB2D0, #12C878);
+       background-image: -ms-linear-gradient(top, #1EB2D0, #12C878);
+       background-image: -o-linear-gradient(top, #1EB2D0, #12C878);
+       background-image: linear-gradient(to bottom, #1EB2D0, #12C878);
+       -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+       border-radius: 20px;
+       text-decoration: none;
+    }
+    .df-images{
+      margin-top: 20px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">DF dftow_0508</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="">About Me</a>
+            </li>
+        </ul>
+     </div>
+    </nav>
+
+    <div class="top-container">
+      <img class="top-cloud"src="images/cloud.png" alt="cloud-img">
+      <h1>I'm DF Tow</h1>
+      <h2 id="introduce">freelance web developer.</h2>
+      <img class="bottom-cloud"src="images/cloud.png" alt="cloud-image">
+      <img src="images/mountain.png" alt="mountain-image">
+
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="df-images" src="images/dftow.gif" alt="DF-picture">
+        <h2>Hello.</h2>
+        <p class="profile-description">I'm an university Student and 18 y/o.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="computer-images" src="images/code.gif" alt="computer-picture">
+          <h3>Computer Science</h3>
+          <p class="computer-skill-description">I"m focusing on Data Science and Artificial Intelligence.</p>
+        </div>
+        <div class="skill-row">
+          <img class="code-images" src="images/coding.png" alt="coding-img">
+          <h3 >Programming</h3>
+          <p class="code-skill-description">I have learned about Java,HTML,CSS,and JavaScript programming language.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Freelance for Web Development or Programmer.</h3>
+        <p>If any interested about me can leave your information by clicking contact me or visiting my social media pages!.</p>
+         <button class="BUTTON" type="button" name="BUTTON">Contact</button>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.instagram.com/dftow_0508/">Instagram</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+
+      <p>© 2020 DFTOW.</p>
+    </div>
+
+  </body>
+</html>
